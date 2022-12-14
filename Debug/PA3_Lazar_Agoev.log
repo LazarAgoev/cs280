@@ -1,0 +1,126 @@
+﻿  parseInt.cpp
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(8,12): error C2374: 'error_count': redefinition; multiple initialization
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(42): message : see declaration of 'error_count'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(9,19): error C2086: 'std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>> defVar': redefinition
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(15): message : see declaration of 'defVar'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(10,20): error C2086: 'std::map<std::string,Token,std::less<std::string>,std::allocator<std::pair<const std::string,Token>>> SymTable': redefinition
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(16): message : see declaration of 'SymTable'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(13,7): error C2374: 'Parser::pushed_back': redefinition; multiple initialization
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(21): message : see declaration of 'Parser::pushed_back'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(14,10): error C2086: 'LexItem Parser::pushed_token': redefinition
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(22): message : see declaration of 'Parser::pushed_token'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(16,17): error C2084: function 'LexItem Parser::GetNextToken(std::istream &,int &)' already has a body
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(24): message : see previous definition of 'GetNextToken'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(24,14): error C2084: function 'void Parser::PushBackToken(LexItem &)' already has a body
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(32): message : see previous definition of 'PushBackToken'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(34,5): error C2084: function 'int ErrCount(void)' already has a body
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(44): message : see previous definition of 'ErrCount'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(39,6): error C2084: function 'void ParseError(int,std::string)' already has a body
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(49): message : see previous definition of 'ParseError'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(52,24): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(52,46): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(52,46): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(56,17): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(61,5): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(67,5): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(70,18): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(73,19): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(76,20): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(83,7): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(89,6): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(95,5): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(101,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(115,22): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(115,44): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(115,44): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(119,17): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(130,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(135,10): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(144,22): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(144,44): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(144,44): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(162,11): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(176,11): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(187,19): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(188,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(193,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(214,17): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(216,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(220,25): error C2660: 'LogicExpr': function does not take 2 arguments
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(66,13): message : see declaration of 'LogicExpr'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(222,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(226,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(228,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(232,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(234,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(240,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(246,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(248,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(251,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(253,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(265,17): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(267,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(274,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(287,16): error C2082: redefinition of formal parameter 'tok'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(287,24): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(287,46): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(287,46): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(299,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(306,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(310,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(316,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(321,11): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(332,24): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(332,46): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(332,46): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(337,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(341,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(348,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(353,11): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(371,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(378,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(391,27): error C2660: 'Var': function does not take 2 arguments
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(360,6): message : see declaration of 'Var'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(395,15): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(398,26): error C2660: 'Expr': function does not take 2 arguments
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parserInt.h(67,13): message : see declaration of 'Expr'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(400,5): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(406,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(411,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(416,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(426,26): error C2065: 'retVal': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(428,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(432,24): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(432,46): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(432,46): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(438,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(443,11): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(459,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(461,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(470,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(474,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(481,17): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(483,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(490,10): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(505,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(507,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(516,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(520,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(527,17): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(529,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(535,10): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(542,22): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(542,44): error C2440: 'initializing': cannot convert from 'LexItem (__cdecl *)(std::istream &,int &)' to 'LexItem'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(542,44): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(554,11): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(570,16): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(572,3): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(578,21): error C2660: 'Expr': function does not take 2 arguments
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(450,6): message : see declaration of 'Expr'
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(581,4): error C2065: 'ParseError': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(586,10): error C2065: 'PushBackToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(593,24): error C2065: 'GetNextToken': undeclared identifier
+C:\Users\agoev\OneDrive\Desktop\Code\Visual Studio (C++)\PA3_Lazar_Agoev\parseInt.cpp(593,45): fatal error C1003: error count exceeds 100; stopping compilation
+  prog3.cpp
+  val.cpp
+  Generating Code...
